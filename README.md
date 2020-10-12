@@ -14,9 +14,9 @@ The notebook [color-palettes.ipynb](./color-palettes.ipynb) goes through using b
 
 The sample images come from the film [Only God Forgives (2013)](https://en.wikipedia.org/wiki/Only_God_Forgives) and the stills came from the site [FILMGRAB](https://film-grab.com/2014/01/14/only-god-forgives/).
 
-I chose to use KMeans and Agglomerative clustering for their speed and in order to get a definite color palette size after running the algorithm.
+I chose to use `KMeans` and `Agglomerative` clustering for their speed and in order to get a definite color palette size after running the algorithm.
 
-In addition to clustering the images' RGB (red-green-blue) values, I applied the same algorithms on the images' HSV (hue-saturation-value) values.
+In addition to clustering the images' `RGB` (red-green-blue) values, I applied the same algorithms on the images' `HSV` (hue-saturation-value) values.
 
 ## Running the Notebook
 
