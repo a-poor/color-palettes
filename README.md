@@ -8,13 +8,7 @@ _by Austin Poor_
 
 Using clustering algorithms to create color palettes from movie stills.
 
-## Running the Notebook
-
-You can run the notebook using binder, [here](https://mybinder.org/v2/gh/a-poor/color-palettes/main?filepath=color-palettes.ipynb).
-
-Or you can download the notebook and run it.
-
-## Explanation
+## Info
 
 The notebook [color-palettes.ipynb](./color-palettes.ipynb) goes through using both [K-Means](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html) and [Agglomerative](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.AgglomerativeClustering.html) clustering to create color palettes from images.
 
@@ -23,6 +17,14 @@ The sample images come from the film [Only God Forgives (2013)](https://en.wikip
 I chose to use KMeans and Agglomerative clustering for their speed and in order to get a definite color palette size after running the algorithm.
 
 In addition to clustering the images' RGB (red-green-blue) values, I applied the same algorithms on the images' HSV (hue-saturation-value) values.
+
+## Running the Notebook
+
+You can run the notebook using binder, [here](https://mybinder.org/v2/gh/a-poor/color-palettes/main?filepath=color-palettes.ipynb).
+
+Or you can download the notebook and run it ([requirements.txt](requirements.txt)).
+
+Note that the algorithms have only been tested on images with 3 color-channels.
 
 ## Issues
 
