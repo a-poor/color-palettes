@@ -3,6 +3,7 @@
 ![sample-palette-1.png](./sample-palette-1.png)
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/a-poor/color-palettes/main?filepath=color-palettes.ipynb)
+[![NBViewer](https://img.shields.io/badge/render-nbviewer-orange)](https://nbviewer.jupyter.org/github/a-poor/color-palettes/blob/main/color-palettes.ipynb#)
 
 _by Austin Poor_
 
