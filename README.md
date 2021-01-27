@@ -41,6 +41,15 @@ When creating palettes using HSV color representations, both clustering algorith
 
 Some possible solutions would be increasing the palette size, adjusting other hyperparameters for the clustering algorithms, or using different clustering algorithms altogether.
 
+## Update -- Filtering Pixels
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/a-poor/color-palettes/main?filepath=color-palettes-filtered.ipynb)
+[![NBViewer](https://img.shields.io/badge/render-nbviewer-orange)](https://nbviewer.jupyter.org/github/a-poor/color-palettes/blob/main/color-palettes-filtered.ipynb#)
+
+I've also added a second notebook, [color-palettes-filtered.ipynb](./color-palettes-filtered.ipynb), where I try to address the issue of the clustering algorithm choosing colors too close to pure black or pure white by filtering the image before clustering.
+
+You can also open that notebook in [binder](https://mybinder.org/v2/gh/a-poor/color-palettes/main?filepath=color-palettes-filtered.ipynb) or [nbviewer](https://nbviewer.jupyter.org/github/a-poor/color-palettes/blob/main/color-palettes-filtered.ipynb#).
+
 ## Flask App
 
 In addition to the notebook, I created simple flask-app-API for creating color palettes.
