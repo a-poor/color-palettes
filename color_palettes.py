@@ -2,7 +2,6 @@ from pathlib import Path
 
 import numpy as np
 import matplotlib.pyplot as plt
-%matplotlib inline
 import seaborn as sns
 sns.set()
 
@@ -29,7 +28,7 @@ def rgb2hsv(dat: np.ndarray) -> np.ndarray:
 def hsv2rgb(dat: np.ndarray) -> np.ndarray:
     return color.hsv2rgb([dat])[0]
 
-def preprocess_image(img: np.ndarray) -> : np.ndarray:
+def preprocess_image(img: np.ndarray) -> np.ndarray:
     return img.reshape((-1,3)).astype("float32") / 255
 
 def preprocess_rgb(img: np.ndarray) -> np.ndarray:
